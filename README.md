@@ -11,3 +11,6 @@ https://www.bilibili.com/video/BV1hLE3z2EAy
 9. [Struct](https://github.com/103style/iOSLearnSwift/tree/master/playground/Struct.playground)
 10. [KeyPathAndMethod](https://github.com/103style/iOSLearnSwift/tree/master/playground/KeyPathAndMethod.playground)
 11. [CommonStruct](https://github.com/103style/iOSLearnSwift/tree/master/playground/CommonStruct.playground)
+12. [Math](https://github.com/103style/iOSLearnSwift/tree/master/playground/Math.playground)
+13. [Range](https://github.com/103style/iOSLearnSwift/tree/master/playground/Range.playground)
+14. [String](https://github.com/103style/iOSLearnSwift/tree/master/playground/String.playground)
