@@ -25,4 +25,4 @@ https://www.bilibili.com/video/BV1hLE3z2EAy
     var e2 = e1
     ```
     ![结构体和类的区别](https://github.com/user-attachments/assets/ea212bb7-1590-4e3f-948b-bfd7be048ee2)
-
+19. [Memory](https://github.com/103style/iOSLearnSwift/tree/master/playground/Memory.playground)
