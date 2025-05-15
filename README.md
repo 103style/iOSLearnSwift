@@ -26,3 +26,5 @@ https://www.bilibili.com/video/BV1hLE3z2EAy
     ```
     ![结构体和类的区别](https://github.com/user-attachments/assets/ea212bb7-1590-4e3f-948b-bfd7be048ee2)
 19. [Memory](https://github.com/103style/iOSLearnSwift/tree/master/playground/Memory.playground)
+20. [Protocals]()
+    <img width="1159" alt="企业微信截图_523d7054-3c9c-471c-ba80-2a7edc4cc9c9" src="https://github.com/user-attachments/assets/c4b94495-66ea-4f5d-922f-19fa306702ea" />
