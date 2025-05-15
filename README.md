@@ -26,5 +26,15 @@ https://www.bilibili.com/video/BV1hLE3z2EAy
     ```
     ![结构体和类的区别](https://github.com/user-attachments/assets/ea212bb7-1590-4e3f-948b-bfd7be048ee2)
 19. [Memory](https://github.com/103style/iOSLearnSwift/tree/master/playground/Memory.playground)
-20. [Protocols]()
+20. [Protocols](https://github.com/103style/iOSLearnSwift/tree/master/playground/Protocols.playground)
+
+    |  特性   | Swift 的 protocol | Java 的 interface |
+    |  ----  | ----  | ---- | 
+    | 属性要求​​   | 可以定义属性（var/let），指定读写权限 |  只能定义常量（public static final），方法默认 public abstract |
+    | 默认实现  | 支持通过 extension 提供默认实现 | Java 8+ 支持 default 方法实现 |
+    | 多继承 | 一个类型可遵循多个 protocol | 类只能单继承，但可实现多个 interface |
+    | 关联类型 | 支持（associatedtype） | 通过泛型模拟（如 Comparable<T>） |
+    | 值类型支持 | 结构体（struct）、枚举（enum）均可遵循 | 仅类（class）可实现接口 |
+    | 可选方法 | 通过 @objc 和 optional 标记（仅限于类） | Java 8+ 可用 default 方法变相实现 |
+
     ![Protocols](https://github.com/user-attachments/assets/c4b94495-66ea-4f5d-922f-19fa306702ea)
