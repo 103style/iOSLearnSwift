@@ -58,3 +58,6 @@ https://www.bilibili.com/video/BV1hLE3z2EAy
         print("do not have enough lamps")
     }
     ```
+24. [PropertyWrapper](https://github.com/103style/iOSLearnSwift/tree/master/playground/PropertyWrapper.playground)
+25. [Macros](https://github.com/103style/iOSLearnSwift/tree/master/playground/Macros.playground)
+26. [NSString](https://github.com/103style/iOSLearnSwift/tree/master/playground/NSString.playground)
