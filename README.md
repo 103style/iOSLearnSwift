@@ -38,3 +38,23 @@ https://www.bilibili.com/video/BV1hLE3z2EAy
     | 可选方法 | 通过 @objc 和 optional 标记（仅限于类） | Java 8+ 可用 default 方法变相实现 |
 
     ![Protocols](https://github.com/user-attachments/assets/c4b94495-66ea-4f5d-922f-19fa306702ea)
+21. [Extension](https://github.com/103style/iOSLearnSwift/tree/master/playground/Extension.playground)
+22. [Delegates](https://github.com/103style/iOSLearnSwift/tree/master/playground/Delegates.playground)
+23. [Error](https://github.com/103style/iOSLearnSwift/tree/master/playground/Error.playground)
+    ```
+    mutating func sold(amount: Int) throws -> Int {
+        if amount > total {
+            throw Errors.OutOfStock
+        } else {
+            total -= amount
+        }
+        return total
+    }
+
+    do {
+        try stock.sold(amount: 8)
+        // 不关心异常信息时
+    } catch Errors.OutOfStock {
+        print("do not have enough lamps")
+    }
+    ```
