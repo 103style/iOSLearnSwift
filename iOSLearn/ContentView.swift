@@ -61,3 +61,7 @@ struct ContentView: View {
 #Preview("FontView") {
     FontView()
 }
+
+#Preview("ColorView") {
+    ColorView()
+}
