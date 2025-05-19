@@ -61,3 +61,8 @@ https://www.bilibili.com/video/BV1hLE3z2EAy
 24. [PropertyWrapper](https://github.com/103style/iOSLearnSwift/tree/master/playground/PropertyWrapper.playground)
 25. [Macros](https://github.com/103style/iOSLearnSwift/tree/master/playground/Macros.playground)
 26. [NSString](https://github.com/103style/iOSLearnSwift/tree/master/playground/NSString.playground)
+27. [Date](https://github.com/103style/iOSLearnSwift/tree/master/playground/Date.playground)
+28. [Mearsurements](https://github.com/103style/iOSLearnSwift/tree/master/playground/Mearsurements.playground)
+29. [Timer](https://github.com/103style/iOSLearnSwift/tree/master/playground/Timer.playground)
+30. [Expressions](https://github.com/103style/iOSLearnSwift/tree/master/playground/Expressions.playground)
+31. [OpaqueType](https://github.com/103style/iOSLearnSwift/tree/master/playground/OpaqueType.playground)
