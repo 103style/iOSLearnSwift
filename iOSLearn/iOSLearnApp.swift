@@ -20,6 +20,9 @@ struct iOSLearnApp: App {
 //            EventModifiersDemoView() // 事件操作符
 //            LayoutDemoView() // 基本布局
 //            SafeAreaDemoView()  // 安全区域
+//            LayoutPriorityDemoView() // 布局优先级、视图固定大小操作符
+//            AlignmentDemoView() // 对齐方式
+//            CustomAlignmentDemoView() // 自定义对齐方式
         }
     }
 }

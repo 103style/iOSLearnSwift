@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		269EF2CD2DDC6D2F00B047A1 /* CustomAlignmentDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EF2CC2DDC6D2F00B047A1 /* CustomAlignmentDemoView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		26809DD92DD3275500A148B3 /* iOSLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		269EF2CC2DDC6D2F00B047A1 /* CustomAlignmentDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +50,7 @@
 		26809DD02DD3275500A148B3 = {
 			isa = PBXGroup;
 			children = (
+				269EF2CC2DDC6D2F00B047A1 /* CustomAlignmentDemoView.swift */,
 				26809DDB2DD3275500A148B3 /* iOSLearn */,
 				26809DDA2DD3275500A148B3 /* Products */,
 			);
@@ -132,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269EF2CD2DDC6D2F00B047A1 /* CustomAlignmentDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
