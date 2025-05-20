@@ -58,10 +58,17 @@ struct ContentView: View {
     PaddingView()
 }
 
+// 动态大小、固定大小、字体
 #Preview("FontView") {
     FontView()
 }
 
+// 背景、圆角、边框...
 #Preview("ColorView") {
     ColorView()
+}
+
+// 图片
+#Preview("ImageDemoView") {
+    ImageDemoView()
 }
