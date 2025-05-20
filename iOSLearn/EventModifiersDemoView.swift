@@ -9,9 +9,9 @@
 
 import SwiftUI
 
-struct EventModifiersDemoView: View {
-    let mfont = Font.system(size: 60)
+let mfont = Font.system(size: 60)
 
+struct EventModifiersDemoView: View {
     var body: some View {
         Image(systemName: "bell.and.waves.left.and.right")
             .font(mfont)
@@ -34,6 +34,17 @@ struct EventModifiersDemoView: View {
 //            .onReceive(timer) { _ in } // 监听外部事件（如通知、定时器）
 //            .animation(.easeInOut, value: isActive) // 为状态变化添加动画
 //            .transition(.slide) // 控制视图插入/移除的过渡效果
+
+        Image(systemName: "phone.badge.waveform")
+            .modifier(CustomModifier())
+    }
+}
+
+// 自定义修饰符 用于统一样式，避免每次都要写多个修饰符,减少重复代码
+struct CustomModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content.font(mfont)
+            .foregroundColor(Color.blue)
     }
 }
 
