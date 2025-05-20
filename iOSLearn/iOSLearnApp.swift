@@ -18,6 +18,7 @@ struct iOSLearnApp: App {
 //            ImageDemoView()
 //            SFSymbolsDemoView()
 //            EventModifiersDemoView()
+//            LayoutDemoView()
         }
     }
 }
