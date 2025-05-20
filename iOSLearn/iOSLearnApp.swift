@@ -11,7 +11,7 @@ import SwiftUI
 struct iOSLearnApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
 //            PaddingView() // 间距
 //            FontView() //  动态大小、固定大小、字体
 //            ColorView() //  背景、圆角、边框...
@@ -26,6 +26,7 @@ struct iOSLearnApp: App {
 //            GroupDemoView() // 分组  统一样式、条件语句选择不同视图
 //            GridsDemoView() // 行列布局  类似手动写Android的GridView
 //            CustomViewDemoView() // 自定义视图
+            CustomLayoutDemoView() // 自定义布局
         }
     }
 }
