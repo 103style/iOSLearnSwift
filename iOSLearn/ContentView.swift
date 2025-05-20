@@ -53,27 +53,32 @@ struct ContentView: View {
 //    ContentView()
 // }
 //
-// command + N 创建模版代码
-#Preview("PaddingView") {
-    PaddingView()
-}
-
-// 动态大小、固定大小、字体
-#Preview("FontView") {
-    FontView()
-}
-
-// 背景、圆角、边框...
-#Preview("ColorView") {
-    ColorView()
-}
-
-// 图片
-#Preview("ImageDemoView") {
-    ImageDemoView()
-}
-
-// SF SymbolsDemo
-#Preview("SFSymbolsDemoView") {
-    SFSymbolsDemoView()
-}
+//// command + N 创建模版代码
+//#Preview("PaddingView") {
+//    PaddingView()
+//}
+//
+//// 动态大小、固定大小、字体
+//#Preview("FontView") {
+//    FontView()
+//}
+//
+//// 背景、圆角、边框...
+//#Preview("ColorView") {
+//    ColorView()
+//}
+//
+//// 图片
+//#Preview("ImageDemoView") {
+//    ImageDemoView()
+//}
+//
+//// SF SymbolsDemo
+//#Preview("SFSymbolsDemoView") {
+//    SFSymbolsDemoView()
+//}
+//
+//// 事件操作符
+//#Preview("EventModifiersDemoView") {
+//    EventModifiersDemoView()
+//}

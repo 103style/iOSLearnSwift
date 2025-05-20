@@ -12,6 +12,12 @@ struct iOSLearnApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//            PaddingView()
+//            FontView()
+//            ColorView()
+//            ImageDemoView()
+//            SFSymbolsDemoView()
+//            EventModifiersDemoView()
         }
     }
 }
