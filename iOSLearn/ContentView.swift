@@ -72,3 +72,8 @@ struct ContentView: View {
 #Preview("ImageDemoView") {
     ImageDemoView()
 }
+
+// SF SymbolsDemo
+#Preview("SFSymbolsDemoView") {
+    SFSymbolsDemoView()
+}
