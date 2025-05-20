@@ -25,6 +25,7 @@ struct iOSLearnApp: App {
 //            CustomAlignmentDemoView() // 自定义对齐方式
 //            GroupDemoView() // 分组  统一样式、条件语句选择不同视图
 //            GridsDemoView() // 行列布局  类似手动写Android的GridView
+//            CustomViewDemoView() // 自定义视图
         }
     }
 }
