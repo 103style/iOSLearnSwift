@@ -23,6 +23,7 @@ struct iOSLearnApp: App {
 //            LayoutPriorityDemoView() // 布局优先级、视图固定大小操作符
 //            AlignmentDemoView() // 对齐方式
 //            CustomAlignmentDemoView() // 自定义对齐方式
+//            GroupDemoView() // 分组  统一样式、条件语句选择不同视图
         }
     }
 }
