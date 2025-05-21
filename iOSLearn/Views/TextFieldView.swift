@@ -26,6 +26,8 @@ struct TextFieldView: View {
     @State private var text: String = ""
     @State private var selected: TextSelection? = nil
     
+    @State private var password: String = ""
+    
     var body: some View {
         VStack(spacing: 10) {
             Text(showText).font(Font.system(size: 16))
@@ -83,6 +85,11 @@ struct TextFieldView: View {
                 .padding(.horizontal, 6)
                 .lineLimit(5) // 设置输入框的行数
             Text(getSelection() ?? "")
+            
+            // 安全文本， 密码输入
+            SecureField("insert password", text: $password)
+                .textFieldStyle(.roundedBorder)
+                .padding(.horizontal, 6)
             
             Button("Submit", action: onSubmit)
                 .buttonStyle(.borderedProminent)
