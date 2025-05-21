@@ -28,7 +28,8 @@ struct iOSLearnApp: App {
 //            CustomViewDemoView() // 自定义视图
 //            CustomLayoutDemoView() // 自定义布局
 //            GenericViewDemoView() // @ViewBuilder 替换 AnyView 包装，避免影响性能
-            ButtonDemoView() // 按钮
+//            ButtonDemoView() // 按钮示例
+            TextFieldView() // 输入框示例
         }
     }
 }
