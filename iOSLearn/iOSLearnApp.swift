@@ -27,7 +27,8 @@ struct iOSLearnApp: App {
 //            GridsDemoView() // 行列布局  类似手动写Android的GridView
 //            CustomViewDemoView() // 自定义视图
 //            CustomLayoutDemoView() // 自定义布局
-            GenericViewDemoView() // @ViewBuilder 替换 AnyView 包装，避免影响性能
+//            GenericViewDemoView() // @ViewBuilder 替换 AnyView 包装，避免影响性能
+            ButtonDemoView() // 按钮
         }
     }
 }
