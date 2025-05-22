@@ -34,7 +34,8 @@ struct iOSLearnApp: App {
 //            ToggleDemoView() // 单选框
 //            SliderDemoView() // 类似Android的Seekbar
 //            ProgressViewDemoView() // 自身不可修改进度的进度条，loading状态
-            StepperDemoView() // 记步器 提供+-按钮，以及可以设置每次点击的幅度
+//            StepperDemoView() // 记步器 提供+-按钮，以及可以设置每次点击的幅度
+            GroupBoxDemoView() // 分组，提供了默认的UI样式
         }
     }
 }
