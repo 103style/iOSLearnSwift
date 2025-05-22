@@ -6,8 +6,10 @@ class Single {
     var name: String
     var age: Int
 
+    // 提供单例对象
     static let shared = Single(name: "Single", age: 18)
 
+    // 私有化初始化方法
     private init(name: String, age: Int) {
         self.name = name
         self.age = age
