@@ -31,7 +31,8 @@ struct iOSLearnApp: App {
 //            ButtonDemoView() // 按钮示例
 //            TextFieldView() // 输入框示例
 //            TextEditorDemoView() // 文本编辑器，默认全屏
-            ToggleDemoView() // 单选框
+//            ToggleDemoView() // 单选框
+            SliderDemoView() // 类似Android的Seekbar
         }
     }
 }
