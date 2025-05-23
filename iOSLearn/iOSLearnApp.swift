@@ -44,7 +44,10 @@ struct iOSLearnApp: App {
 //            ForEachDemoView() // List视图
 //                .environment(GroupApplicationData.shared)
 
-            ScrollViewDemoView() // 可滚动，LazyVStack懒加载
+//            ScrollViewDemoView() // 可滚动，LazyVStack懒加载
+//                .environment(GroupApplicationData.shared)
+
+            ScrollToPostionDemoView() // 滚动到指定位置
                 .environment(GroupApplicationData.shared)
         }
     }
