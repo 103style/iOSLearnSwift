@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct iOSLearnApp: App {
-    @State private var appData = ApplicationData.shared
+//    @State private var appData = ApplicationData.shared
     var body: some Scene {
         WindowGroup {
 //            ContentView()
@@ -38,8 +38,11 @@ struct iOSLearnApp: App {
 //            StepperDemoView() // 记步器 提供+-按钮，以及可以设置每次点击的幅度
 //            GroupBoxDemoView() // 分组，提供了默认的UI样式
 //            ObservableDemoView() // 模型，全局数据 @Observable @Bindable
-            EnvironmentDemoView()
-                .environment(appData) // 配置到视图的环境中，只有当前视图能够访问
+//            EnvironmentDemoView()
+//                .environment(appData) // 配置到视图的环境中，只有当前视图能够访问
+
+            ForEachDemoView() // List视图
+                .environment(GroupApplicationData.shared)
         }
     }
 }
