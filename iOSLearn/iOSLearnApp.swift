@@ -41,7 +41,10 @@ struct iOSLearnApp: App {
 //            EnvironmentDemoView()
 //                .environment(appData) // 配置到视图的环境中，只有当前视图能够访问
 
-            ForEachDemoView() // List视图
+//            ForEachDemoView() // List视图
+//                .environment(GroupApplicationData.shared)
+
+            ScrollViewDemoView() // 可滚动，LazyVStack懒加载
                 .environment(GroupApplicationData.shared)
         }
     }
