@@ -53,8 +53,10 @@ struct iOSLearnApp: App {
 //            LazyGridDemoView() // 网格视图
 //                .environment(GroupApplicationData.shared)
 
-            ListDemoView()
-                .environment(GroupApplicationData.shared)
+//            ListDemoView()
+//                .environment(GroupApplicationData.shared)
+            
+            SectionDemoView()
         }
     }
 }
