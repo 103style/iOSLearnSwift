@@ -49,8 +49,11 @@ struct iOSLearnApp: App {
 
 //            ScrollToPostionDemoView() // 滚动到指定位置
 //                .environment(GroupApplicationData.shared)
-            
-            LazyGridDemoView() // 网格视图
+
+//            LazyGridDemoView() // 网格视图
+//                .environment(GroupApplicationData.shared)
+
+            ListDemoView()
                 .environment(GroupApplicationData.shared)
         }
     }
