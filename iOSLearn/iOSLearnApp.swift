@@ -55,8 +55,11 @@ struct iOSLearnApp: App {
 
 //            ListDemoView()
 //                .environment(GroupApplicationData.shared)
-            
-            SectionDemoView()
+
+//            SectionDemoView()
+
+            ListEditModeDemoView() // 列表的编辑模式， 测滑删除
+                .environment(GroupApplicationData.shared)
         }
     }
 }
