@@ -60,8 +60,11 @@ struct iOSLearnApp: App {
 
 //            ListEditModeDemoView() // 列表的编辑模式， 测滑删除、单选、多选、自定义编辑模式
 //                .environment(GroupApplicationData.shared)
-            
-            SwipeDemoView() // 滑动
+
+//            SwipeDemoView() // 滑动
+//                .environment(GroupApplicationData.shared)
+
+            ListRefreshDemoView() // 下拉刷新
                 .environment(GroupApplicationData.shared)
         }
     }
