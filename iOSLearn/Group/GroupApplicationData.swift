@@ -21,8 +21,16 @@ struct Book: Identifiable, Hashable {
     }
 }
 
+struct ExpandData: Identifiable, Hashable {
+    let id = UUID()
+    var title: String
+    var childs: [ExpandData]!
+}
+
 @Observable class GroupApplicationData: @unchecked Sendable {
     var books: [Book] = []
+
+    var expandDatas: [ExpandData] = []
 
     static let shared: GroupApplicationData = .init()
 
@@ -40,6 +48,22 @@ struct Book: Identifiable, Hashable {
             Book(title: "R", author: "RRR", cover: "r.circle", year: 20025, selected: false),
             Book(title: "Python", author: "PPP", cover: "p.circle", year: 20025, selected: false),
             Book(title: "PHP", author: "PPP", cover: "p.circle", year: 20025, selected: false),
+        ]
+
+        expandDatas = [
+            ExpandData(title: "Android", childs: [
+                ExpandData(title: "Kotlin", childs: nil),
+                ExpandData(title: "Java", childs: nil),
+                ExpandData(title: "Compsose", childs: nil),
+                ExpandData(title: "Gradle", childs: [
+                    ExpandData(title: "Groovy", childs: nil),
+                    ExpandData(title: "Kotlin", childs: nil),
+                ]),
+            ]),
+            ExpandData(title: "iOS", childs: [
+                ExpandData(title: "Swift", childs: nil),
+                ExpandData(title: "Object-C", childs: nil),
+            ]),
         ]
     }
 }

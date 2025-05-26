@@ -64,7 +64,10 @@ struct iOSLearnApp: App {
 //            SwipeDemoView() // 滑动
 //                .environment(GroupApplicationData.shared)
 
-            ListRefreshDemoView() // 下拉刷新
+//            ListRefreshDemoView() // 下拉刷新
+//                .environment(GroupApplicationData.shared)
+            
+            ExpandListDemoView() // 类似Android的expandedableList
                 .environment(GroupApplicationData.shared)
         }
     }
