@@ -73,7 +73,9 @@ struct iOSLearnApp: App {
 //            PickerDemoView() // 下拉单选框、单选按钮
 //            DatePickerDemoView() // 日期选择器，设置可选择范围， 多选
 
-            NavigationStackDemoView() // 导航
+//            NavigationStackDemoView() // 导航
+//                .environment(GroupApplicationData.shared)
+            NavigationMenuDemoView() // 导航二级菜单
                 .environment(GroupApplicationData.shared)
         }
     }
