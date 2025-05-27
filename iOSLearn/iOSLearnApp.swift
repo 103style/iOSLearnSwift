@@ -66,12 +66,15 @@ struct iOSLearnApp: App {
 
 //            ListRefreshDemoView() // 下拉刷新
 //                .environment(GroupApplicationData.shared)
-            
+
 //            ExpandListDemoView() // 类似Android的expandedableList
 //                .environment(GroupApplicationData.shared)
-            
+
 //            PickerDemoView() // 下拉单选框、单选按钮
-            DatePickerDemoView() // 日期选择器，设置可选择范围， 多选
+//            DatePickerDemoView() // 日期选择器，设置可选择范围， 多选
+
+            NavigationStackDemoView() // 导航
+                .environment(GroupApplicationData.shared)
         }
     }
 }
