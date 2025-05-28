@@ -32,6 +32,8 @@ struct ExpandData: Identifiable, Hashable {
 
     var expandDatas: [ExpandData] = []
 
+    var filterBooks: [Book] = []
+
     static let shared: GroupApplicationData = .init()
 
     private init() {
@@ -65,5 +67,16 @@ struct ExpandData: Identifiable, Hashable {
                 ExpandData(title: "Object-C", childs: nil),
             ]),
         ]
+        filter(keyword: "")
+    }
+
+    func filter(keyword: String) {
+        filterBooks = if keyword.isEmpty {
+            books.sorted(by: { $0.title < $1.title })
+        } else {
+            books.filter { item in
+                item.title.localizedStandardContains(keyword)
+            }
+        }
     }
 }

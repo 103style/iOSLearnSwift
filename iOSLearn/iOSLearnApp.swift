@@ -75,7 +75,9 @@ struct iOSLearnApp: App {
 
 //            NavigationStackDemoView() // 导航
 //                .environment(GroupApplicationData.shared)
-            NavigationMenuDemoView() // 导航二级菜单
+//            NavigationMenuDemoView() // 导航二级菜单
+//                .environment(GroupApplicationData.shared)
+            NavigationSearchDemoView() // 带搜索的导航栏
                 .environment(GroupApplicationData.shared)
         }
     }
