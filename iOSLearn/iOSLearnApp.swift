@@ -79,9 +79,11 @@ struct iOSLearnApp: App {
 //                .environment(GroupApplicationData.shared)
 //            NavigationSearchDemoView() // 带搜索的导航栏
 //                .environment(GroupApplicationData.shared)
-            SearchSuggestDemoView() // 搜索建议
-                .environment(GroupApplicationData.shared)
-            SearchControlDemoView() // 手动控制退出搜索
+//            SearchSuggestDemoView() // 搜索建议
+//                .environment(GroupApplicationData.shared)
+//            SearchControlDemoView() // 手动控制退出搜索
+//                .environment(GroupApplicationData.shared)
+            SearchRangeDemoView() // 搜索范围 示例
                 .environment(GroupApplicationData.shared)
         }
     }

@@ -71,11 +71,19 @@ struct ExpandData: Identifiable, Hashable {
     }
 
     func filter(keyword: String) {
+        filter(keyword: keyword, scope: .title)
+    }
+
+    func filter(keyword: String, scope: Scopes) {
         filterBooks = if keyword.isEmpty {
             books.sorted(by: { $0.title < $1.title })
         } else {
             books.filter { item in
-                item.title.localizedStandardContains(keyword)
+                if scope == Scopes.title {
+                    item.title.localizedStandardContains(keyword)
+                } else {
+                    item.author.localizedStandardContains(keyword)
+                }
             }
         }
     }
