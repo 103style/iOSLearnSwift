@@ -81,6 +81,8 @@ struct iOSLearnApp: App {
 //                .environment(GroupApplicationData.shared)
             SearchSuggestDemoView() // 搜索建议
                 .environment(GroupApplicationData.shared)
+            SearchControlDemoView() // 手动控制退出搜索
+                .environment(GroupApplicationData.shared)
         }
     }
 }
