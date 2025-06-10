@@ -33,6 +33,8 @@ struct ExpandData: Identifiable, Hashable {
     var expandDatas: [ExpandData] = []
 
     var filterBooks: [Book] = []
+    
+    var viewPath = NavigationPath()
 
     static let shared: GroupApplicationData = .init()
 
