@@ -88,12 +88,14 @@ struct iOSLearnApp: App {
 
 //            NavigationLinkDemoView() // 页面跳转，修改默认的返回按钮
 //                .environment(GroupApplicationData.shared)
-            
+
 //            PopoverDemoView() // 弹框视图
-            
+
 //            AlertViewDemoView() // .alert：输入警告 & .confirmationDialog：确认弹框
-            
-            TipsDemoView() // 提示
+
+//            TipsDemoView() // 提示
+
+            TabViewDemoView() // 多tab布局
         }
     }
 }
