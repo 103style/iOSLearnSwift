@@ -95,7 +95,8 @@ struct iOSLearnApp: App {
 
 //            TipsDemoView() // 提示
 
-            TabViewDemoView() // 多tab布局
+//            TabViewDemoView() // 多tab布局
+            TabWithSearchDemoView() // 带搜索按钮的多tab布局
         }
     }
 }
