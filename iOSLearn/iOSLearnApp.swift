@@ -91,7 +91,9 @@ struct iOSLearnApp: App {
             
 //            PopoverDemoView() // 弹框视图
             
-            AlertViewDemoView() // .alert：输入警告 & .confirmationDialog：确认弹框
+//            AlertViewDemoView() // .alert：输入警告 & .confirmationDialog：确认弹框
+            
+            TipsDemoView() // 提示
         }
     }
 }
