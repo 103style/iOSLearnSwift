@@ -86,8 +86,10 @@ struct iOSLearnApp: App {
 //            SearchRangeDemoView() // 搜索范围 示例
 //                .environment(GroupApplicationData.shared)
 
-            NavigationLinkDemoView() // 页面跳转，修改默认的返回按钮
-                .environment(GroupApplicationData.shared)
+//            NavigationLinkDemoView() // 页面跳转，修改默认的返回按钮
+//                .environment(GroupApplicationData.shared)
+            
+            PopoverDemoView() // 弹框视图
         }
     }
 }
