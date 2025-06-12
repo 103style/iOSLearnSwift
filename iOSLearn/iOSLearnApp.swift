@@ -98,7 +98,9 @@ struct iOSLearnApp: App {
 //            TabViewDemoView() // 多tab布局
 //            TabWithSearchDemoView() // 带搜索按钮的多tab布局
 //            TabPageDemoView()  // tab的样式设置示例
-            SliderViewDemoView() // 侧边栏 iphone 和 ipad 的区别
+//            SliderViewDemoView() // 侧边栏 iphone 和 ipad 的区别
+            
+            SizeClassDemoView() // 横竖屏
         }
     }
 }
