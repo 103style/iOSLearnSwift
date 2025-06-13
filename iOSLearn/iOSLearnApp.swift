@@ -109,7 +109,8 @@ struct iOSLearnApp: App {
             // https://www.bilibili.com/video/BV187E3zLEbi?p=38
             // iphone ipad适配
             
-            AsyncDemoView() // 异步任务示例
+//            AsyncDemoView() // 异步任务示例
+            AsyncErrorInfoDemoView() // 异步任务错误信息获取示例
         }
     }
 }
