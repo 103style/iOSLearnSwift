@@ -10,6 +10,8 @@
 import SwiftUI
 
 struct GeometryReaderDemoView: View {
+    @State private var size: CGSize = .zero
+
     var body: some View {
         GeometryReader { geometry in
             let isPortrait = geometry.size.height > geometry.size.width
@@ -24,13 +26,21 @@ struct GeometryReaderDemoView: View {
                     Text(msg)
 
                     Text("\(globalX) - \(globalY)")
+
+                    Text("\(Int(size.width)) - \(Int(size.height))")
                 }
 
                 Image(systemName: "macbook.gen1")
                     .resizable()
                     .scaledToFit()
                     .frame(width: geometry.size.width/2, height: geometry.size.height/4)
-                    .background(Color.gray)
+                    .background(GeometryReader { geo in
+                        Color.clear
+                            .onAppear {
+                                size = geo.size
+                            }
+
+                    })
 
             }.frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
         }
