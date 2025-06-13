@@ -100,7 +100,8 @@ struct iOSLearnApp: App {
 //            TabPageDemoView()  // tab的样式设置示例
 //            SliderViewDemoView() // 侧边栏 iphone 和 ipad 的区别
             
-            SizeClassDemoView() // 横竖屏
+//            SizeClassDemoView() // 横竖屏
+            GeometryReaderDemoView() // 通过 GeometryReader 判断横竖屏
         }
     }
 }
