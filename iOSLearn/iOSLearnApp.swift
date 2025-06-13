@@ -112,7 +112,8 @@ struct iOSLearnApp: App {
 //            AsyncDemoView() // 异步任务示例
 //            AsyncErrorInfoDemoView() // 异步任务错误信息获取示例
 //            AsyncConcurrentDemoView() // 异步并发
-            AsyncDataSyncDemoView() // 异步编程数据同步问题
+//            AsyncDataSyncDemoView() // 异步编程数据同步问题
+            MainThreadDemoView() // 执行在主线程的示例
         }
     }
 }
