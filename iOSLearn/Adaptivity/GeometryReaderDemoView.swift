@@ -16,11 +16,27 @@ struct GeometryReaderDemoView: View {
 
             let msg = isPortrait ? "Portrait" : "LandScape"
 
-            HStack {
-                Text(msg)
-            }.frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
+            let globalX = Int(geometry.frame(in: .global).origin.x)
+            let globalY = Int(geometry.frame(in: .global).origin.y)
 
-        }.ignoresSafeArea()
+            HStack {
+                VStack {
+                    Text(msg)
+
+                    Text("\(globalX) - \(globalY)")
+                }
+
+                Image(systemName: "macbook.gen1")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: geometry.size.width/2, height: geometry.size.height/4)
+                    .background(Color.gray)
+
+            }.frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
+        }
+        .frame(width: 200, height: 250)
+        .ignoresSafeArea()
+        .background(.red)
     }
 }
 
