@@ -102,6 +102,14 @@ struct iOSLearnApp: App {
             
 //            SizeClassDemoView() // 横竖屏
             GeometryReaderDemoView() // 通过 GeometryReader 判断横竖屏
+            
+            // todo
+            // https://www.bilibili.com/video/BV187E3zLEbi?p=36
+            // https://www.bilibili.com/video/BV187E3zLEbi?p=37
+            // https://www.bilibili.com/video/BV187E3zLEbi?p=38
+            // iphone ipad适配
+            
+            
         }
     }
 }
