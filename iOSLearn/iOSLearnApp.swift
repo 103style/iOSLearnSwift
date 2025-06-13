@@ -99,19 +99,20 @@ struct iOSLearnApp: App {
 //            TabWithSearchDemoView() // 带搜索按钮的多tab布局
 //            TabPageDemoView()  // tab的样式设置示例
 //            SliderViewDemoView() // 侧边栏 iphone 和 ipad 的区别
-            
+
 //            SizeClassDemoView() // 横竖屏
 //            GeometryReaderDemoView() // 通过 GeometryReader 判断横竖屏
-            
+
             // todo
             // https://www.bilibili.com/video/BV187E3zLEbi?p=36
             // https://www.bilibili.com/video/BV187E3zLEbi?p=37
             // https://www.bilibili.com/video/BV187E3zLEbi?p=38
             // iphone ipad适配
-            
+
 //            AsyncDemoView() // 异步任务示例
 //            AsyncErrorInfoDemoView() // 异步任务错误信息获取示例
-            AsyncConcurrentDemoView() // 异步并发
+//            AsyncConcurrentDemoView() // 异步并发
+            AsyncDataSyncDemoView() // 异步编程数据同步问题
         }
     }
 }
