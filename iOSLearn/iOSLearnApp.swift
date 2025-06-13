@@ -101,7 +101,7 @@ struct iOSLearnApp: App {
 //            SliderViewDemoView() // 侧边栏 iphone 和 ipad 的区别
             
 //            SizeClassDemoView() // 横竖屏
-            GeometryReaderDemoView() // 通过 GeometryReader 判断横竖屏
+//            GeometryReaderDemoView() // 通过 GeometryReader 判断横竖屏
             
             // todo
             // https://www.bilibili.com/video/BV187E3zLEbi?p=36
@@ -109,7 +109,7 @@ struct iOSLearnApp: App {
             // https://www.bilibili.com/video/BV187E3zLEbi?p=38
             // iphone ipad适配
             
-            
+            AsyncDemoView() // 异步任务示例
         }
     }
 }
