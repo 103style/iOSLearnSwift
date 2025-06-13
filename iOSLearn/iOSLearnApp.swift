@@ -110,7 +110,8 @@ struct iOSLearnApp: App {
             // iphone ipad适配
             
 //            AsyncDemoView() // 异步任务示例
-            AsyncErrorInfoDemoView() // 异步任务错误信息获取示例
+//            AsyncErrorInfoDemoView() // 异步任务错误信息获取示例
+            AsyncConcurrentDemoView() // 异步并发
         }
     }
 }
