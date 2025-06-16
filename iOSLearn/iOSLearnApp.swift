@@ -117,7 +117,10 @@ struct iOSLearnApp: App {
 
 //            AsyncSequenceDemoView() // 异步迭代序列示例
 //            AsyncTaskGroupDemoView() // 异步任务组示例
-            AsyncImageDemoView() // 异步加载网络图片
+//            AsyncImageDemoView() // 异步加载网络图片
+
+            // 数据持久化
+            AppStorageDemoView()
         }
     }
 }
