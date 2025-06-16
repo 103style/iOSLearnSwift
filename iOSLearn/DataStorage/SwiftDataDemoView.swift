@@ -2,6 +2,8 @@
 //  SwiftDataDemoView.swift
 //  iOSLearn
 //
+//  教程：https://www.bilibili.com/video/BV187E3zLEbi?p=50 -> 61
+//
 //  Created by kempluo on 2025/6/16.
 //
 
@@ -12,6 +14,21 @@ struct SwiftDataDemoView: View {
     @Environment(FoodStorageManage.self) private var foots
     @Environment(\.modelContext) var dbContect
     @Query var listFood: [Food]
+
+    // 查询并排序
+    // @Query(sort:[\Food.name, order: .forward]) var listFood: [Food] // 名称生序排序
+    // @Query(sort:[SortDescriptor(\Food.name, order: .forward)]) var listFood: [Food] // 排序描述符排序， 优势是可以指定多个条件
+    // @Query(sort: [SortDescriptor(\Food.name, order: .forward), SortDescriptor(\Food.displayPrice, order: .forward)]) var listFood: [Food] // 排序描述符排序， 优势是可以指定多个条件
+
+    // 查询并过滤
+    // @Query(filter: #Predicate<Food> { $0.price > 100 }) private var listFood: [Food]
+
+//    let expression = #Expression<Int, Bool> { price in
+//        price > 100
+//    }
+//    @Query(filter: #Predicate<Food>{
+//        expression.evaluate($0.price)
+//    }) private var listFood: [Food]
 
     private let addBtn = "Add"
 
