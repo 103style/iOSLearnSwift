@@ -139,12 +139,30 @@ struct iOSLearnApp: App {
 
     // ----------------------------------------------------------------------------
 
-    var body: some Scene {
-        WindowGroup {
+    // -----------------------------本地文件读写START--------------------------------------
+//    var body: some Scene {
+//        WindowGroup {
 //            FileDemoView()
 //                .environment(FileApplicationData.shared)
-            TextFileDemoView()
-                .environment(TextApplicationData.shared)
+
+//            TextFileDemoView()
+//                .environment(TextApplicationData.shared)
+//        }
+//    }
+    // -----------------------------本地文件读写END--------------------------------------
+
+    
+    // -------------------------------文档操作START---------------------------------------
+    var body: some Scene {
+//        DocumentGroup(newDocument: TextDocument(), editor: { config in
+//            TextDocumentDemoView(document: config.$document)
+//
+//
+//        })
+
+        WindowGroup {
+            DocumentExportImportDemoView() // 文档导出导入示例
         }
     }
+    // -------------------------------文档操作END---------------------------------------
 }
