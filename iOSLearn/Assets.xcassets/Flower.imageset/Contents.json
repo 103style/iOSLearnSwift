@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "white-flower-clipart-1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "white-flower-clipart-1.png",
+      "filename" : "white-flower-clipart-1 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "white-flower-clipart-1 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

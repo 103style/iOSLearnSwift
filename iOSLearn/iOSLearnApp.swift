@@ -172,7 +172,8 @@ struct iOSLearnApp: App {
             // StrokeStyleDemoView() // 边框设置示例
             // ShapeAsBgDemoView() // shape作为背景  圆角按钮示例
             // GradientDemoView() // 渐变介绍
-            ShapeEffectsDemoView() // 添加阴影
+            // ShapeEffectsDemoView() // 添加阴影
+            ShapePatternsDemoView() // 背景用图片填充示例
         }
     }
     //  -------------------------------11章 shapes END---------------------------------------
