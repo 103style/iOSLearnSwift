@@ -151,18 +151,27 @@ struct iOSLearnApp: App {
 //    }
     // -----------------------------本地文件读写END--------------------------------------
 
-    
     // -------------------------------文档操作START---------------------------------------
-    var body: some Scene {
-//        DocumentGroup(newDocument: TextDocument(), editor: { config in
-//            TextDocumentDemoView(document: config.$document)
+//    var body: some Scene {
+    ////        DocumentGroup(newDocument: TextDocument(), editor: { config in
+    ////            TextDocumentDemoView(document: config.$document)
+    ////
+    ////
+    ////        })
 //
-//
-//        })
+//        WindowGroup {
+//            DocumentExportImportDemoView() // 文档导出导入示例
+//        }
+//    }
+    // -------------------------------文档操作END---------------------------------------
 
+    //  -------------------------------11章 shapes STRAT---------------------------------------
+    var body: some Scene {
         WindowGroup {
-            DocumentExportImportDemoView() // 文档导出导入示例
+            // ShapeDemoView() // 形状样式
+            // StrokeStyleDemoView() // 边框设置示例
+            ShapeAsBgDemoView() // shape作为背景  圆角按钮示例
         }
     }
-    // -------------------------------文档操作END---------------------------------------
+    //  -------------------------------11章 shapes END---------------------------------------
 }
