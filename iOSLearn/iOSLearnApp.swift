@@ -124,7 +124,7 @@ struct iOSLearnApp: App {
 //        }
 //    }
 //
-    
+
     // ----------------------------------------------------------------------------
     // SwiftData 数据持久化 示例, 菜单的添加和删除
 //    @State private var appData = FoodStorageManage.shared
@@ -136,13 +136,15 @@ struct iOSLearnApp: App {
 //                .modelContainer(for: [Food.self])
 //        }
 //    }
-    
+
     // ----------------------------------------------------------------------------
-    
+
     var body: some Scene {
         WindowGroup {
-            FileDemoView()
-                .environment(FileApplicationData.shared)
+//            FileDemoView()
+//                .environment(FileApplicationData.shared)
+            TextFileDemoView()
+                .environment(TextApplicationData.shared)
         }
     }
 }
