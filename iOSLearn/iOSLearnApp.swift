@@ -173,7 +173,8 @@ struct iOSLearnApp: App {
             // ShapeAsBgDemoView() // shape作为背景  圆角按钮示例
             // GradientDemoView() // 渐变介绍
             // ShapeEffectsDemoView() // 添加阴影
-            ShapePatternsDemoView() // 背景用图片填充示例
+            // ShapePatternsDemoView() // 背景用图片填充示例
+            PathDemoView() // 自定义路径示例，类似Andorid自定义View中用的的Path
         }
     }
     //  -------------------------------11章 shapes END---------------------------------------
