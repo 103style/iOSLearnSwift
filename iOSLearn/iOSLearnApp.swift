@@ -170,7 +170,8 @@ struct iOSLearnApp: App {
         WindowGroup {
             // ShapeDemoView() // 形状样式
             // StrokeStyleDemoView() // 边框设置示例
-            ShapeAsBgDemoView() // shape作为背景  圆角按钮示例
+            // ShapeAsBgDemoView() // shape作为背景  圆角按钮示例
+            GradientDemoView() // 渐变介绍
         }
     }
     //  -------------------------------11章 shapes END---------------------------------------
