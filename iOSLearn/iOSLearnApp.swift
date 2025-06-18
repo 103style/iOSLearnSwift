@@ -174,7 +174,13 @@ struct iOSLearnApp: App {
             // GradientDemoView() // 渐变介绍
             // ShapeEffectsDemoView() // 添加阴影
             // ShapePatternsDemoView() // 背景用图片填充示例
-            PathDemoView() // 自定义路径示例，类似Andorid自定义View中用的的Path
+            // PathDemoView() // 自定义路径示例，类似Andorid自定义View中用的的Path
+            // TransformDemoView() // shape的图形变换  放缩、3d旋转、裁剪形状、描边、旋转、镜像翻转、路径截断
+            // CanvasDemoView() //  画 图片、各种形状、文字示例
+            // CanvasBestDrawImageDemoView() // 画图片的最佳方式， 使用 context.resolve(Image(.flower)) 提前解析图片已提升性能
+            // CanvasClipDemoView() // 画布裁剪示例
+            // CanvasMultiLayerDemoView() // 不同配置的画布示例
+            CanvasApplyFiltersDemoView() // 配置滤镜
         }
     }
     //  -------------------------------11章 shapes END---------------------------------------
