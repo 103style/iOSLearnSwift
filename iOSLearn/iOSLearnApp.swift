@@ -187,7 +187,11 @@ struct iOSLearnApp: App {
             // ChartsLineMarkDemoView() // 这些图表
             // ChartsOtherMarkDemoView() // 点、矩形、区域图表
             // ChartsModifiesDemoView() // 图标修饰符
-            ChartsWithDiffMarksDemoView() // 多个图表混合展示
+            // ChartsWithDiffMarksDemoView() // 多个图表混合展示
+            // ChartsWithSelcetionDemoView() // 显示选中图表的示例
+            // ChartsMathDemoView() // 数学函数图表
+            // ChartsWithTwoSeriesValueDemoView() // 显示多组数据，配置不同的颜色、位置
+            ChartsScrollDemoView() // 图表支持可滚动
         }
     }
 
