@@ -166,8 +166,8 @@ struct iOSLearnApp: App {
     // -------------------------------文档操作END---------------------------------------
 
     //  -------------------------------11章 shapes Charts STRAT---------------------------------------
-    var body: some Scene {
-        WindowGroup {
+//    var body: some Scene {
+//        WindowGroup {
 //            // ShapeDemoView() // 形状样式
 //            // StrokeStyleDemoView() // 边框设置示例
 //            // ShapeAsBgDemoView() // shape作为背景  圆角按钮示例
@@ -182,18 +182,35 @@ struct iOSLearnApp: App {
 //            // CanvasMultiLayerDemoView() // 不同配置的画布示例
 //            CanvasApplyFiltersDemoView() // 配置滤镜
 
-            // ------------------------------------
-            // ChartsBarMarkDemoView() // 条形图表
-            // ChartsLineMarkDemoView() // 这些图表
-            // ChartsOtherMarkDemoView() // 点、矩形、区域图表
-            // ChartsModifiesDemoView() // 图标修饰符
-            // ChartsWithDiffMarksDemoView() // 多个图表混合展示
-            // ChartsWithSelcetionDemoView() // 显示选中图表的示例
-            // ChartsMathDemoView() // 数学函数图表
-            // ChartsWithTwoSeriesValueDemoView() // 显示多组数据，配置不同的颜色、位置
-            ChartsScrollDemoView() // 图表支持可滚动
-        }
-    }
+    // ------------------------------------
+    // ChartsBarMarkDemoView() // 条形图表
+    // ChartsLineMarkDemoView() // 这些图表
+    // ChartsOtherMarkDemoView() // 点、矩形、区域图表
+    // ChartsModifiesDemoView() // 图标修饰符
+    // ChartsWithDiffMarksDemoView() // 多个图表混合展示
+    // ChartsWithSelcetionDemoView() // 显示选中图表的示例
+    // ChartsMathDemoView() // 数学函数图表
+    // ChartsWithTwoSeriesValueDemoView() // 显示多组数据，配置不同的颜色、位置
+    // ChartsScrollDemoView() // 图表支持可滚动
+//        }
+//    }
 
     //  -------------------------------11章 shapes Charts END---------------------------------------
+
+    
+    // 图像渲染器
+    var body: some Scene {
+        WindowGroup {
+            ImageRenderDemoView() // 图像渲染器
+        }
+    }
+    
+    
+    // ------------------------------- 动画 START ---------------------------------------
+//    var body: some Scene {
+//        WindowGroup {
+//            
+//        }
+//    }
+    // ------------------------------- 动画 END ---------------------------------------
 }
