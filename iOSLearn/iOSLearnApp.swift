@@ -197,20 +197,23 @@ struct iOSLearnApp: App {
 
     //  -------------------------------11章 shapes Charts END---------------------------------------
 
-    
     // 图像渲染器
-    var body: some Scene {
-        WindowGroup {
-            ImageRenderDemoView() // 图像渲染器
-        }
-    }
-    
-    
-    // ------------------------------- 动画 START ---------------------------------------
 //    var body: some Scene {
 //        WindowGroup {
-//            
+//            ImageRenderDemoView() // 图像渲染器
 //        }
 //    }
+
+    // ------------------------------- 动画 START ---------------------------------------
+    var body: some Scene {
+        WindowGroup {
+            // AnimationSimpleDemoView() // 简单动画示例
+            // AnimationCustomShapeDemoView() // 动画控制自定义视图， 主要是根据 animatableData值的变化 改变属性值， 重绘视图
+            // AnimationCreateDemoView() // 通过TimelineView的时间创建一个实现圆半径变化的动画
+            // AnimationTransitionsDemoView() // 通过 .transition 添加过渡动画  自定义过渡动画示例
+            // AnimationCoordinatingTransitionsDemoView() // 动画组 通过 matchedGeometryEffect 同一个组使用统一的 id 和 in
+            AnimationWithSFSymbolsDemoView() // 通过 symbolEffect 对SF符号进行动画
+        }
+    }
     // ------------------------------- 动画 END ---------------------------------------
 }
