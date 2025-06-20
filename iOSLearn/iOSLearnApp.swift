@@ -221,7 +221,8 @@ struct iOSLearnApp: App {
     var body: some Scene {
         WindowGroup {
             // SimpleGustureDemoView() // 点击、长按 操作示例
-            GestureEnableDemoView() // 设置 是否允许点击、 通过.contentShape设置内容形状才配置点击响应区域
+            // GestureEnableDemoView() // 设置 是否允许点击、 通过.contentShape设置内容形状才配置点击响应区域
+            GestureStructDemoView() // .gesture 操作符 响应手势，.updating更新 .onEnded响应
         }
     }
     // ------------------------------- 手势 END ---------------------------------------
