@@ -220,7 +220,8 @@ struct iOSLearnApp: App {
     // ------------------------------- 手势 START ---------------------------------------
     var body: some Scene {
         WindowGroup {
-            SimpleGustureDemoView() // 点击、长按 操作示例
+            // SimpleGustureDemoView() // 点击、长按 操作示例
+            GestureEnableDemoView() // 设置 是否允许点击、 通过.contentShape设置内容形状才配置点击响应区域
         }
     }
     // ------------------------------- 手势 END ---------------------------------------
